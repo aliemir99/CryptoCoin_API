@@ -1,0 +1,36 @@
+﻿@model Coin_API.Models.CoinBank
+
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    @foreach (var item in Model.Coins)
+    {
+        <div class="col-4">
+            <div id="coin"class="card">
+                <div class="card-body">
+                   <img src="@item.Image" width="50" height="50"/>
+                 
+                    <p><b>@item.Name</b></p>
+                    <p>Symbol: @item.Symbol</p>
+                    <p>USD Price: @item.Price_USD</p>
+                    <p>BTC Price: @item.Price_BTC</p>
+                    <p>24hr Percent Change: @item.Percent_Change_24hr %</p>
+                    <p>Volume 24: @item.Volume24</p>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+#coin{
+    margin-top: 2em;
+    margin-bottom: 20px;
+    padding: 10px,10px,10px,10px;
+}
+
+</style>

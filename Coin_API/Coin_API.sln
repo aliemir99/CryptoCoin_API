@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coin_API", "Coin_API\Coin_API.csproj", "{EAC823E7-2F2E-405F-B4F2-E8459F608562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC823E7-2F2E-405F-B4F2-E8459F608562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC823E7-2F2E-405F-B4F2-E8459F608562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC823E7-2F2E-405F-B4F2-E8459F608562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC823E7-2F2E-405F-B4F2-E8459F608562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53C67FA0-464B-46FB-89B9-430EC063C96F}
+	EndGlobalSection
+EndGlobal
